@@ -1,0 +1,14 @@
+asyncio~=3.4.3
+google~=3.0.0
+protobuf~=5.29.3
+aioredis~=2.0.1
+bs4~=0.0.2
+beautifulsoup4~=4.12.3
+playwright~=1.51.0
+cachetools~=5.5.2
+httpx~=0.28.1
+loguru~=0.7.3
+typing~=3.7.4.3
+requests~=2.32.3
+pandas~=2.2.3
+python-dotenv~=1.0.1
