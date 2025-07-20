@@ -11,7 +11,7 @@ from google.generativeai import ChatSession
 from httpx import AsyncClient
 from loguru import logger
 from config import GEMINI_API_KEY, REDIS_URI
-# Add these at the global level
+
 MAX_CONCURRENT_REQUESTS = 10
 request_semaphore = Semaphore(MAX_CONCURRENT_REQUESTS)
 cache = TTLCache(maxsize=100, ttl=3600)  # Cache results for 1 hour
